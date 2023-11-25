@@ -7,7 +7,6 @@ import TabCmp from "../components/tabs/pages";
 import DallTab from "../components/tabs/DallTab";
 import WhisperTab from "../components/tabs/WhisperTab";
 
-import HeroBg from "../../public/img/HeroBg.png";
 import ResourceHero from "../../public/img/ResourceHero.png";
 import ResourceLaptop from "../../public/img/ResourceLaptop.png";
 // import ResourceIceland from "../../public/img/ResourceIceland.png";
@@ -55,7 +54,7 @@ const page = () => {
         <div className="w-[95%] mx-auto flex justify-between flex-wrap">
           <div className="flex justify-between md:w-3/3 gap-3 lg:w-2/3 flex-wrap">
             <div className="flex flex-col gap-2">
-              <h3>Author:</h3>
+              <h3>Author &#58;</h3>
               <div className="flex gap-3">
                 <button
                   className="btn px-3 py-1 rounded-3xl text-sm"
@@ -72,7 +71,7 @@ const page = () => {
               </div>
             </div>
             <div className="flex flex-col gap-2">
-              <h3>Topics:</h3>
+              <h3>Topics&#58;</h3>
               <div className="flex gap-3">
                 <button
                   className="btn px-3 py-1 rounded-3xl text-[12px] md:text-sm"
@@ -263,7 +262,7 @@ const page = () => {
         </div>
         <div className="md:w-2/2 lg:w-1/2 flex flex-col gap-2 min-h-[150px]">
           <p className="text-xl">
-            GPT-4 is OpenAI’s most advanced system, producing safer and more
+            GPT-4 is OpenAI&#39;s most advanced system, producing safer and more
             useful responses.
           </p>
           <Link href="" className="underline">
@@ -282,8 +281,8 @@ const page = () => {
           </div>
           <div className="md:w-2/2 lg:w-1/2 flex flex-col gap-2 min-h-[150px]">
             <p className="text-xl">
-              GPT-4 is OpenAI’s most advanced system, producing safer and more
-              useful responses.
+              GPT-4 is OpenAI&#39;s most advanced system, producing safer and
+              more useful responses.
             </p>
             <Link href="" className="underline">
               Learn-about GPT-4
@@ -303,8 +302,8 @@ const page = () => {
           </div>
           <div className="md:w-2/2 lg:w-1/2 flex flex-col gap-2 min-h-[150px]">
             <p className="text-xl">
-              GPT-4 is OpenAI’s most advanced system, producing safer and more
-              useful responses.
+              GPT-4 is OpenAI&#39;s most advanced system, producing safer and
+              more useful responses.
             </p>
             <Link href="" className="underline">
               Learn-about GPT-4
