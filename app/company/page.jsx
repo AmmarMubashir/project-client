@@ -134,6 +134,7 @@ const page = () => {
           <Image
             className="rounded-lg"
             src={HeroImg}
+            alt="Hero Image"
             width={1000} // Adjust the width according to your image aspect ratio
             height={600} // Adjust the height according to your image aspect ratio
           />
